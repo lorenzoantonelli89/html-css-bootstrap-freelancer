@@ -1,8 +1,24 @@
 /* regole generali */
 
-.contenitore{
-  max-width: 80%;
-  margin: 0 auto;
+@media all and (max-width: 768px){
+  .contenitore{
+    max-width: 95%;
+    margin: 0 auto;
+  }
+}
+
+@media all and (min-width: 992px){
+  .contenitore{
+    max-width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media all and (min-width: 1200px){
+  .contenitore{
+    max-width: 80%;
+    margin: 0 auto;
+  }
 }
 
 .blue{
@@ -12,7 +28,7 @@
 .green{
   background-color: #1abc9c;
   /* regole debug */
-  min-height: 500px;
+  min-height: 300px;
 }
 
 /* debug */
@@ -20,11 +36,12 @@
   min-height: 100px;
   background-color: red;
   border: 1px solid #000;
+  margin-top: 40px;
 }
 
 
 /* regole header */
+/* regole debug */
 header{
-  /* regole debug */
   min-height: 200px;
 }
