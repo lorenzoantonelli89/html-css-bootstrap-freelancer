@@ -1,0 +1,30 @@
+/* regole generali */
+
+.contenitore{
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.blue{
+  background-color: #2c3e50;
+}
+
+.green{
+  background-color: #1abc9c;
+  /* regole debug */
+  min-height: 500px;
+}
+
+/* debug */
+[class*="col-"]{
+  min-height: 100px;
+  background-color: red;
+  border: 1px solid #000;
+}
+
+
+/* regole header */
+header{
+  /* regole debug */
+  min-height: 200px;
+}
