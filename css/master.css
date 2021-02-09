@@ -1,25 +1,5 @@
 /* regole generali */
 
-@media all and (max-width: 768px){
-  .contenitore{
-    max-width: 95%;
-    margin: 0 auto;
-  }
-}
-
-@media all and (min-width: 992px){
-  .contenitore{
-    max-width: 90%;
-    margin: 0 auto;
-  }
-}
-
-@media all and (min-width: 1200px){
-  .contenitore{
-    max-width: 80%;
-    margin: 0 auto;
-  }
-}
 
 .blue{
   background-color: #3a546d;
@@ -44,6 +24,16 @@
 /* regole debug */
 header{
   min-height: 200px;
+}
+
+/* regole main */
+
+.image{
+  /* debug */
+  min-width: 50px;
+  min-height: 50px;
+  background-color: yellow;
+  margin-top: 25px;
 }
 
 /* regole footer */
