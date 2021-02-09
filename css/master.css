@@ -22,7 +22,7 @@
 }
 
 .blue{
-  background-color: #2c3e50;
+  background-color: #3a546d;
 }
 
 .green{
@@ -44,4 +44,9 @@
 /* regole debug */
 header{
   min-height: 200px;
+}
+
+/* regole footer */
+.darkblu{
+  background-color: #2c3e50;
 }
