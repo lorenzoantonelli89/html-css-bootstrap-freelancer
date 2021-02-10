@@ -46,6 +46,11 @@
   text-align: center;
 }
 
+.divisori{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
 /* regole header */
 header{
   min-height: 50px;
@@ -75,9 +80,9 @@ header .navbar-default .navbar-nav > li > a{
 
 /* regole main */
 .image{
-  /* debug */
   max-width: 25rem;
   margin: 0 auto;
+  margin-bottom: 40px;
 }
 
 .image>img{
@@ -91,18 +96,34 @@ section.green button{
   background-color: inherit;
   border: 1px solid #fff;
   color: #fff;
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 /* section form */
+#exampleInputEmail2,
+#exampleInputPassword1,
+#exampleInputName2,
+#textarea{
+  border: none;
+  border-bottom: 1px solid #ccc;
+  color: #ccc;
+}
 
 #inputsend{
   text-align: left;
+  background-color: #1abc9c;
+  color: #fff;
+  margin-top: 15px;
 }
 
 /* regole footer */
 footer{
-  /* regole di debug */
   margin-top: 50px;
+}
+
+footer .blue{
+  padding-bottom: 40px;
 }
 
 .center.social a{
@@ -115,5 +136,15 @@ footer{
   padding: 10px;
 }
 
-  /* regole debug */
+.center.boot a{
+  color: #1abc9c;
+  text-decoration: none;
+}
+
+.darkblu{
+  min-height: 100px;
+}
+
+footer .darkblu span{
+  line-height: 100px;
 }
