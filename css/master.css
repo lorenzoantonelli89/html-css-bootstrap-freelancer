@@ -1,6 +1,7 @@
 /* regole generali */
-body{
 
+.darkblu{
+  background-color: #2c3e50;
 }
 
 .blue{
@@ -9,18 +10,41 @@ body{
 
 .green{
   background-color: #1abc9c;
-  /* regole debug */
-  min-height: 300px;
 }
 
-/* debug */
-[class*="col-"]{
-  height: 100px;
-  /* background-color: red; */
-  border: 1px solid #000;
-  margin-top: 40px;
+.linedivisor{
+  display: inline-block;
+  width: 100%;
+  max-width: 10rem;
+  height: 0.25rem;
+  border-radius: 1rem;
+  margin-bottom: 5px;
 }
 
+.fas.fa-star{
+  font-size: 2rem;
+  padding: 0 16px;
+}
+
+.whitebg{
+  background-color: #fff;
+}
+
+.whitecl{
+  color: #fff;
+}
+
+.blackbg{
+  background-color: #333333;
+}
+
+.blackcl{
+  color: #333333;
+}
+
+.center{
+  text-align: center;
+}
 
 /* regole header */
 header{
@@ -28,7 +52,7 @@ header{
 }
 
 header .navbar-default{
-  background-color: #3a546d;
+  background-color: #2c3e50;
   border: none;
 }
 
@@ -37,19 +61,42 @@ header .navbar-default .navbar-nav > li > a{
   color: #fff;
 }
 
+/* regole jumbotron */
+.center > img{
+  width: 15rem;
+}
 
-
-
-
+.green.jumbo img,
+.green.jumbo h2,
+.green.jumbo .divident,
+.green.jumbo h4{
+  margin-bottom: 30px;
+}
 
 /* regole main */
-
 .image{
   /* debug */
-  min-width: 50px;
-  min-height: 50px;
-  background-color: yellow;
-  margin-top: 25px;
+  max-width: 25rem;
+  margin: 0 auto;
+}
+
+.image>img{
+  max-width: 100%;
+  height: auto;
+}
+
+/* section about */
+
+section.green button{
+  background-color: inherit;
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+/* section form */
+
+#inputsend{
+  text-align: left;
 }
 
 /* regole footer */
@@ -57,7 +104,16 @@ footer{
   /* regole di debug */
   margin-top: 50px;
 }
-.darkblu{
-  background-color: #2c3e50;
+
+.center.social a{
+  display: inline-flex;
+  width: 3.25rem;
+  height: 3.25rem;
+  font-size: 1.25rem;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  padding: 10px;
+}
+
   /* regole debug */
 }
