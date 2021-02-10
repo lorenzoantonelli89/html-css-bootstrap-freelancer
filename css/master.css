@@ -52,10 +52,6 @@
 }
 
 /* regole header */
-header{
-  min-height: 50px;
-}
-
 header .navbar-default{
   background-color: #2c3e50;
   border: none;
@@ -67,6 +63,10 @@ header .navbar-default .navbar-nav > li > a{
 }
 
 /* regole jumbotron */
+.green.jumbo{
+  margin-top: 40px;
+}
+
 .center > img{
   width: 15rem;
 }
@@ -79,18 +79,40 @@ header .navbar-default .navbar-nav > li > a{
 }
 
 /* regole main */
+/* sezione immagini portfolio */
 .image{
-  max-width: 25rem;
+  position: relative;
   margin: 0 auto;
-  margin-bottom: 40px;
+  background-color: #00b386;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
 
 .image>img{
   max-width: 100%;
-  height: auto;
+  border-radius: 10px;
+}
+
+.image:hover img{
+  opacity: 0.3;
+}
+.image i{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 80px;
+  display: none;
+  color: #fff;
+}
+.image:hover i{
+  display: block;
 }
 
 /* section about */
+section.green{
+  margin-top: 50px;
+}
 
 section.green button{
   background-color: inherit;
@@ -101,13 +123,13 @@ section.green button{
 }
 
 /* section form */
-#exampleInputEmail2,
-#exampleInputPassword1,
-#exampleInputName2,
-#textarea{
+.form-control{
+  width: 80%;
   border: none;
   border-bottom: 1px solid #ccc;
-  color: #ccc;
+  color: #acacac;
+  box-shadow: none;
+  border-radius: inherit;
 }
 
 #inputsend{
@@ -131,6 +153,8 @@ footer .blue{
   width: 3.25rem;
   height: 3.25rem;
   font-size: 1.25rem;
+  color: #fff;
+  text-decoration: none;
   border: 1px solid #fff;
   border-radius: 100%;
   padding: 10px;
